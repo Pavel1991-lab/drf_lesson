@@ -13,4 +13,8 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
+    import rest_framework_simplejwt
+
+    print(rest_framework_simplejwt.__version__)
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

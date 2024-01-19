@@ -38,7 +38,6 @@ def send_lesson_update_notification(lesson_id):
         [subscribers.user.email]
     )
 
-
 @shared_task
 def user_unactive():
     users = User.objects.all()
